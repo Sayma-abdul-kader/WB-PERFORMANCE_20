@@ -1,0 +1,49 @@
+.b1{
+    height: 100px;
+    width: 100px; background-color: blueviolet;
+    margin-bottom: 10px;
+    float: right;
+}
+.b2{
+    height: 100px;
+    width: 100px; background-color: blueviolet;
+    opacity: 0.5;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    position: fixed;
+    padding: 0;
+   overflow: hidden; background-color: dimgray;
+    top: 0;
+    height: 100%;
+}
+li{
+    float: none;
+}
+.main{
+    margin-left: 25%;
+}
+li a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+li a:hover:not(.ac){
+    background-color: aqua;
+}
+.ac{
+    background: darkgreen;
+}
+.dropdown a{
+    color: black;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    
+}
+li .drop{
+    position: relative;
+    display: inline-block;
+}
